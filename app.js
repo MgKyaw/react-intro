@@ -4,3 +4,5 @@
 // <p>Hello World</p>
 
 // const myArticle = <article></article>;
+
+const p1 = <p>foo</p>;
