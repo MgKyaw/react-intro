@@ -3,4 +3,4 @@
 // // JSX Element
 // <p>Hello World</p>
 
-const myArticle = <article></article>;
+// const myArticle = <article></article>;
