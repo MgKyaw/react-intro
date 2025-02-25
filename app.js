@@ -6,3 +6,4 @@
 // const myArticle = <article></article>;
 
 const p1 = <p>foo</p>;
+const p2 = <p>bar</p>;
