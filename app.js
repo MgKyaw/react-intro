@@ -52,3 +52,4 @@ const myList = (
     </ul>
     );
 
+root.render(myList);
