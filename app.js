@@ -35,4 +35,5 @@ import { createRoot } from 'react-dom/client';
 
 // Write code here:
 const container = document.getElementById('container');
+const root = createRoot(container);
 
