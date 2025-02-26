@@ -38,18 +38,18 @@
 // const root = createRoot(container);
 // root.render(<h1>Hello world</h1>);
 
-import React from 'react';
-import { createRoot } from 'react-dom/client';
+// import React from 'react';
+// import { createRoot } from 'react-dom/client';
 
-const container = document.getElementById('app');
-const root = createRoot(container);
-// Write code here:
-const myList = (
-    <ul>
-      <li>a</li>
-      <li>b</li>
-      <li>c</li>
-    </ul>
-    );
+// const container = document.getElementById('app');
+// const root = createRoot(container);
+// // Write code here:
+// const myList = (
+//     <ul>
+//       <li>a</li>
+//       <li>b</li>
+//       <li>c</li>
+//     </ul>
+//     );
 
-root.render(myList);
+// root.render(myList);
