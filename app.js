@@ -135,4 +135,4 @@ const kitty = (
 		alt="kitty" />
 );
 
-root.render(null);
+root.render(kitty);
