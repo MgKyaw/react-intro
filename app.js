@@ -132,7 +132,8 @@ function makeDoggy(e) {
 const kitty = (
 	<img 
 		src="https://content.codecademy.com/courses/React/react_photo-kitty.jpg" 
-		alt="kitty" />
+		alt="kitty"
+        onClick = {makeDoggy} />
 );
 
 root.render(kitty);
