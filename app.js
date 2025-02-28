@@ -28,8 +28,8 @@
 // // Copy code here:
 // const container = document.getElementById('app');
 // const root = createRoot(container);
-// root.render(<h1>Hello world</h1>);    
-     
+// root.render(<h1>Hello world</h1>);
+
 // import React from 'react';
 // import { createRoot } from 'react-dom/client';
 
@@ -130,28 +130,33 @@
 // }
 
 // const kitty = (
-// 	<img 
-// 		src="https://content.codecademy.com/courses/React/react_photo-kitty.jpg" 
+// 	<img
+// 		src="https://content.codecademy.com/courses/React/react_photo-kitty.jpg"
 // 		alt="kitty"
 //         onClick = {makeDoggy} />
 // );
 
 // root.render(kitty);
 
-import React from 'react';
-import { createRoot } from 'react-dom/client';
+import React from "react";
+import { createRoot } from "react-dom/client";
 
-const container = document.getElementById('app');
+const container = document.getElementById("app");
 const root = createRoot(container);
 function coinToss() {
   // This function will randomly return either 'heads' or 'tails'.
-  return Math.random() < 0.5 ? 'heads' : 'tails';
+  return Math.random() < 0.5 ? "heads" : "tails";
 }
 
 const pics = {
-  kitty: 'https://content.codecademy.com/courses/React/react_photo-kitty.jpg',
-  doggy: 'https://content.codecademy.com/courses/React/react_photo-puppy.jpeg'
+  kitty: "https://content.codecademy.com/courses/React/react_photo-kitty.jpg",
+  doggy: "https://content.codecademy.com/courses/React/react_photo-puppy.jpeg",
 };
 let img;
 
 // if/else statement begins here:
+if (coinToss() == "heads") {
+  img = <img src={pics.kitty} />;
+} else {
+  img = <img src={pics.doggy} />;
+}
