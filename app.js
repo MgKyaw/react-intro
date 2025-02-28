@@ -104,4 +104,4 @@ const root = createRoot(container);
 
 const theBestString = 'This text was accessed through a javascript variable';
 
-root.render(___);
+root.render(<h1>{theBestString}</h1>);
