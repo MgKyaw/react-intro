@@ -160,3 +160,5 @@ if (coinToss() == "heads") {
 } else {
   img = <img src={pics.doggy} />;
 }
+
+root.render(img);
