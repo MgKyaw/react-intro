@@ -115,3 +115,4 @@ const goose = 'https://content.codecademy.com/courses/React/react_photo-goose.jp
 
 // Declare new variable here:
 const gooseImg = <img src={goose} />;
+root.render(gooseImg);
