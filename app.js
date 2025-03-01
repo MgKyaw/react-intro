@@ -219,3 +219,5 @@
 
 // // root.render goes here:
 // root.render(<ul>{peopleList}</ul>);
+
+const greatestDivEver = React.createElement();
