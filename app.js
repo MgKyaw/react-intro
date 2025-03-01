@@ -205,17 +205,17 @@
 
 // root.render(favoriteFoods);
 
-import React from 'react';
-import { createRoot } from 'react-dom/client';
+// import React from 'react';
+// import { createRoot } from 'react-dom/client';
 
-const container = document.getElementById('app');
-const root = createRoot(container);
-const people = ['Rowe', 'Prevost', 'Gare'];
+// const container = document.getElementById('app');
+// const root = createRoot(container);
+// const people = ['Rowe', 'Prevost', 'Gare'];
 
-const peopleList = people.map((person,i) =>
-  // expression goes here:
-  <li key={'person_' + i}>{person}</li>
-);
+// const peopleList = people.map((person,i) =>
+//   // expression goes here:
+//   <li key={'person_' + i}>{person}</li>
+// );
 
-// root.render goes here:
-root.render(<ul>{peopleList}</ul>);
+// // root.render goes here:
+// root.render(<ul>{peopleList}</ul>);
