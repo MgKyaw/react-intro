@@ -197,7 +197,7 @@ const favoriteFoods = (
     <ul>
       <li>Sushi Burrito</li>
       <li>Rhubarb Pie</li>
-      <li>Nacho Cheez Straight Out The Jar</li>
+      {!judgmental && <li>Nacho Cheez Straight Out The Jar</li>}
       <li>Broiled Grapefruit</li>
     </ul>
   </div>
