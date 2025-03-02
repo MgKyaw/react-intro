@@ -221,3 +221,6 @@
 // root.render(<ul>{peopleList}</ul>);
 
 // const greatestDivEver = React.createElement("div", null, "i am div");
+
+import { animals } from './animals';
+
